@@ -1,0 +1,146 @@
+
+
+/* bg color dilog */
+.color-box-selected
+{
+    width:50px;
+    height:30px;
+    background: red;
+    display: inline-block;
+    border: 1px solid #999;
+    transform: translateY(25%);
+    margin-left: 1em;
+}
+
+.color-box
+{
+    width:25px;
+    height:25px;
+    border:1px solid #999;
+    margin: 3px;
+}
+
+
+.my-text
+{
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    border:1px dashed #555;
+    cursor: move;
+    top:25%;
+    left:42%;
+    position: absolute;
+    padding: 0.5em;
+}
+
+.my-text p{
+    font-family: 'Fahkwang', sans-serif;
+}
+
+.ui-resizable-se,.ui-resizable-s,.ui-resizable-e,.ui-resizable-n,.ui-resizable-w,.ui-resizable-ne,.ui-resizable-sw,.ui-resizable-nw
+{
+    background: rgba(0, 81, 255, 0.575);
+    border:2px solid rgb(13, 47, 158);
+    border-radius: 50%;
+}
+
+.ui-resizable-se
+{
+    bottom: -20px;
+    right:-20px;
+    width:20px;
+    height:20px;
+}
+
+.ui-resizable-s
+{
+    width:15px;
+    height:15px;
+    left: 50%;
+    bottom:-8px;
+    transform: translateX(-50%);
+}
+
+.ui-resizable-e
+{
+    height:15px;
+    width:15px;
+    top: 50%;
+    right:-8px;
+    transform: translateY(-50%);
+}
+.ui-resizable-w
+{
+    height:15px;
+    width:15px;
+    top: 50%;
+    left:-8px;
+    transform: translateY(-50%);
+}
+.ui-resizable-n
+{
+    height:15px;
+    width:15px;
+    left: 50%;
+    top:-8px;
+    transform: translateX(-50%);
+}
+
+.ui-resizable-ne{
+    top: -20px;
+    right:-20px;
+    width:20px;
+    height:20px;
+}
+.ui-resizable-sw{
+    bottom: -20px;
+    left:-20px;
+    width:20px;
+    height:20px;
+}
+.ui-resizable-nw{
+    top: -20px;
+    left:-20px;
+    width:20px;
+    height:20px;
+}
+
+
+#edit-box-front,#edit-box-back
+{
+    border: 1px solid #000;
+    width:100px;
+    height:100px;
+    position: absolute;
+    z-index: 0;
+    top:0%;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+#button-addon4
+{
+    background-color: #dbdbd2;
+}
+
+#nav-background,#nav-tamplete
+{
+    max-height: 100vh;
+    overflow:auto;
+}
+#nav-background img,#nav-tamplete img
+{
+    width:140px;
+    height:100px;
+    margin:4px;
+}
+#nav-background img:hover, #nav-tamplete img:hover{
+    border:5px solid rgb(17, 112, 202);
+    cursor: pointer;
+}
+
+
+
+
+
