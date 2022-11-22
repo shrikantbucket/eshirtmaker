@@ -197,10 +197,12 @@ footer{
 {
     background-color: #0062cc;
     border-color: #0062cc;
+    height:60px;
 }
 
 .middle-nav-button :hover
 {
-    background-color: rgba(94, 3, 119, 1);
+    background-color: #00346c;
+     border-color:  #00346c;
 }
 
