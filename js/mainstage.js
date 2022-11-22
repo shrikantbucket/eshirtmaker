@@ -427,8 +427,8 @@ $(document).ready(function(){
       $("#productselected button").click(function(){
         console.log($(this).val());
 
-        $("#stage-front").attr("src","../img/stagehelper/product_type_"+$(this).val()+"_front.png");
-        $("#stage-back").attr("src","../img/stagehelper/product_type_"+$(this).val()+"_back.png");
+        $("#stage-front").attr("src","img/stagehelper/product_type_"+$(this).val()+"_front.png");
+        $("#stage-back").attr("src","img/stagehelper/product_type_"+$(this).val()+"_back.png");
       
         var qty = $("#qtytxt").val();
         var product_price =prices[ $(this).val()-1];
